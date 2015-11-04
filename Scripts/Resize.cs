@@ -5,9 +5,8 @@
  */
 
 using UnityEngine;
-using System.Collections;
 
-public static class Resize : MonoBehaviour
+public static class Resize
 {
 
 	public static Rect fitOutside (float width, float height, float containerWidth, float containerHeight)
